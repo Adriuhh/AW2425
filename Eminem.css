@@ -1,4 +1,33 @@
 /*PAGINA PRINCIPAL*/
+/*menu de navegacion*/
+header {
+    background-color: #f5f5f5;
+  }
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+  
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    padding: 10px;
+    background-color: rgb(75, 123, 138);
+    color: #fff;
+  }
+  /*Menu de navegacion final.*/
 #indexh1{ 
     text-align: center;
     border-radius: 10px;
@@ -14,19 +43,21 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#th1{color: green;
-}
-
-#th2{color: red;
-}
-
-#th3{color: purple
-}
-
 #TyDh1{color: black;
     text-align: center;
     font-family: monospace;
 }
+#header1{
+    background-color: rgba(15, 143, 122, 0.63);
+}
+#body1{
+    background-color: rgba(32, 105, 107, 0.514);
+}
+#footer1{
+    background-color: rgba(15, 143, 122, 0.63);
+    padding: 18px;
+}
+
 /*BIOGRAFIA*/
 .h1{
     text-align: center;
@@ -37,6 +68,21 @@
     background-color: green;
     color: white;
 }
+/*Boton*/
+.boton1{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton1:hover {
+    background-color: #1cc261;
+}
+
 /*DISCOGRAFIA*/
 .h2{
     text-align: center;
@@ -47,6 +93,21 @@
     background-color: rgb(184, 14, 14);
     color: white;
 }
+/*Boton*/
+.boton2{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(184, 14, 14);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton2:hover {
+    background-color: #d12d2dbd;
+}
+
 /*DISCO THE EMINEM SHOW*/
 .h6{
     text-align: center;
@@ -57,6 +118,21 @@
     background-color: rgb(141, 45, 45);
     color: white;
 }
+/*Boton*/
+.boton6{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(141, 45, 45);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton6:hover {
+    background-color: rgb(136, 72, 72);
+}
+
 /*SU PELICULA 8 MILLE*/
 .h3{
     text-align: center;
@@ -67,7 +143,22 @@
     background-color: purple;
     color: white;
 }
-/*FORMULARIO*/
+/*Boton*/
+.boton3{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: purple;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton3:hover {
+    background-color: rgb(173, 106, 173);
+}
+
+/*TERMINOS Y CONDICIONES DE USO*/
 .h4{
     text-align: center;
     border-radius: 10px;
@@ -77,7 +168,22 @@
     background-color: gray;
     color: black;
 }
-/*TERMINOS Y CONDICIONES DE USO*/
+/*Boton*/
+.boton4{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: gray;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton4:hover {
+    background-color: rgb(194, 194, 194);
+}
+
+/*FORMULARIO*/
 #h5{
     text-align: center;
     border-radius: 10px;
@@ -86,4 +192,18 @@
     margin-right: 25%;
     background-color: rgb(68, 68, 173);
     color: white;
+}
+/*Boton*/
+.boton5{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(68, 68, 173);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.boton5:hover {
+    background-color: rgb(96, 96, 167);
 }
