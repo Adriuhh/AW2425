@@ -10,10 +10,17 @@
     <header id="header1">
             
         <nav>
+        
             <ul>
-              <li><a href="Eminem.html">BIOGRAFÍA</a></li>
-              <li><a href="Discográfica.html">DISCOGRAFÍA</a></li>
-              <li><a href="8Mille.html">PELICULA 8 MILLE</a></li>
+              <li></i>
+                <a  href="Eminem.html"><i class="fa fa-book"></i></i> BIOGRAFÍA <i class="fa fa-book"></i></a>
+            </li>
+              <li>
+                <a href="Discográfica.html"><i class="fa fa-circle"></i></i > DISCOGRAFÍA <i class="fa fa-circle"></i></a>
+            </li>
+              <li>
+                <a href="8Mille.html"><i class="fa fa-film"></i></i> PELICULA 8 MILLE <i class="fa fa-film"></i></a>
+            </li>
             </ul>
           </nav>
 
@@ -35,12 +42,27 @@
 
     <nav>
         <ul>
-          <li><a href="Formulario.html">Hacer Valoración</a></li>
-          <li><a href="Terminosycondiciones.html">Terminos y condiciones</a></li>
+          <li><a href="Formulario.html"> 
+            <i class="fa fa-pencil"></i> Hacer Valoración <i class="fa fa-comment"></i> </a></li>
+          <li><a href="Terminosycondiciones.html"><i class="fa fa-file-text"></i> Términos y Condiciones <i class="fa fa-file-text"></i></a></li>
         </ul>
       </nav>
    
 </footer>
-<h6 id="indexh2">Hecho y mantenido por Adrián Darriba Santiago</h6> 
+<h6 id="indexh2">Hecho y mantenido por Adrián Darriba Santiago</h6>
+
+    <!--Sonido al entrar a la pagina Discografia. -->
+
+    <audio id="background-audio" autoplay>
+      <source src="guesswhosback.mp3" type="audio/mp3" />
+    </audio>
+    <script>
+      window.addEventListener('load', function() {
+          var audio = document.getElementById('background-audio');
+          audio.play();
+      });
+    </script>
+
 </body>
 </html> 
+
