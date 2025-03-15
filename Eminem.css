@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 /*PAGINA PRINCIPAL*/
 /*menu de navegacion*/
 header {
@@ -59,6 +61,9 @@ nav a:hover {
 }
 
 /*BIOGRAFIA*/
+.body1{
+    background-color: rgb(144, 189, 144);
+}
 .h1{
     text-align: center;
     border-radius: 10px;
@@ -84,6 +89,10 @@ nav a:hover {
 }
 
 /*DISCOGRAFIA*/
+.body2{
+    background-color: rgb(233, 162, 162);
+}
+
 .h2{
     text-align: center;
     border-radius: 10px;
@@ -109,6 +118,9 @@ nav a:hover {
 }
 
 /*DISCO THE EMINEM SHOW*/
+.body6{
+    background-color: rgb(190, 88, 88);
+}
 .h6{
     text-align: center;
     border-radius: 10px;
@@ -134,6 +146,9 @@ nav a:hover {
 }
 
 /*SU PELICULA 8 MILLE*/
+.body3{
+    background-color: rgb(181, 131, 196);
+}
 .h3{
     text-align: center;
     border-radius: 10px;
@@ -159,6 +174,9 @@ nav a:hover {
 }
 
 /*TERMINOS Y CONDICIONES DE USO*/
+.body4{
+    background-color: rgb(173, 171, 171)
+}
 .h4{
     text-align: center;
     border-radius: 10px;
@@ -184,6 +202,9 @@ nav a:hover {
 }
 
 /*FORMULARIO*/
+.body5{
+    background-color: rgb(153, 154, 212);
+}
 #h5{
     text-align: center;
     border-radius: 10px;
